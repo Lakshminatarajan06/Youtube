@@ -290,7 +290,7 @@ for document in cursor:
                 except Exception as e:
                             print(f"Error: {e}")
 
-And then using SQL query the answer for the questions is displayed in streamlit APP through various streamlit functions like buttons, dropdown box, checkbox, bar chart,et,.
+And then using SQL query with inner joint function, the answer for the questions is displayed in streamlit APP through various streamlit functions like buttons, dropdown box, checkbox, bar chart,et,.
 
 import streamlit as st
 st.title("Youtube Data Harvesting Project")
